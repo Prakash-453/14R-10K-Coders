@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link rel="shortcut icon" href="../Pictures/10000_coders_logo.jpg" type="image/x-icon"/>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <h1><center>Sign up Form</center></h1>
+    <form>
+        <label for="FN">First Name : </label>
+        <input type="text" id="FN" name="First-Name"/><br><br>
+        <label for="LN">Last Name : </label>
+        <input type="text" id="LN" name="Last-Name"/><br>
+        <p>Choose Your Gender : </p>
+        <input type="radio" id="Gender" name="Gender" value="Male"/>
+        <label for="Gender">Male</label>
+        <input type="radio" id="gender" name="Gender" value="Female"/>
+        <label for="gender">Female</label><br><br>
+        <label for="Mobile-No">Mobile Number : </label>
+        <input type="tel" id="Mobile-No" name="Mobile-No"/><br><br>
+        <label for="mail">E-Mail : </label>
+        <input type="mail" id="mail" name="E-mail_id"/><br><br>
+        <label for="pswd">Password : </label>
+        <input type="password" id="pswd" name="Password"/>
+        <p>Choose State : </p>
+        <input type="checkbox" id="state" name="State" value="Andhra_Pradesh"/>
+        <label for="state">Andhra Pradesh</label><br>
+        <input type="checkbox" id="state" name="State" value="Telangana"/>
+        <label for="state">Telangana</label><br>
+        <input type="checkbox" id="state" name="State" value="Mumbai"/>
+        <label for="state">Mumbai</label><br>
+        <input type="checkbox" id="state" name="Chennai"/>
+        <label for="state">Chennai</label><br>
+        <input type="checkbox" id="state" name="Bangalore"/>
+        <label for="state">Bangalore</label><br><br>
+        <label for="branch">Choose Branch : </label>
+        <select name="Branch" id="branch">
+            <option value="Civil">Civil</option>
+                <option value="E.C.E">E.C.E</option>
+                <option value="C.S.E">C.S.E</option>
+                <option value="E.E.E">E.E.E</option>
+                <option value="Mechanical">Mechanical</option>
+        </select><br><br>
+        <label for="courses">Choose Your Course : </label>
+        <select name="Course" id="courses" multiple size="15">
+            <optgroup label="Frond-End Courses">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Java Script">Java-Script</option>
+                <option value="React.JS">React</option>
+            </optgroup>
+            <optgroup label="Back-End Courses">
+                <option value="Python">Python</option>
+                <option value="Express.JS">Express.JS</option>
+                <option value="Node.JS">Node.JS</option>
+                <option value="Django">Django</option>
+            </optgroup>
+            <optgroup label="Data-Base Courses">
+                <option value="SQL">SQL</option>
+                <option value="My SQL">My_SQL</option>
+                <option value="NoSQL">No_SQL</option>
+                <option value="DBMS">DBMS</option>
+            </optgroup>
+        </select><br><br>
+        <p>Any Comments : </p>
+        <textarea rows="10" cols="10"></textarea>
+        <p>For Any Queries : <a href="https://www.whatsapp.com/"><ion-icon name="logo-whatsapp"></ion-icon></a></p>
+        <input type="Reset"/>
+        <input type="Submit">
+    </form>
+</body>
+</html>
